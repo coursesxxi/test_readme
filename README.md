@@ -127,10 +127,11 @@ Si llegas hasta esta parte, por favor, comentamelo con un mensaje.
 
 
 # All answers must be inside a docker image and the answer will be tested with a running container. Add lint and at least 01 unit test
+
 docker build -t docker-image .
+
+![Screenshot](docker_build.png)
 
 docker run --rm docker-image python find_matching_pair.py
 
-docker run --rm docker-image python test_find_matching_pair.py
-
-docker run --rm -v $PWD:/app docker-image pylint find_matching_pair.py
+docker run --rm docker-image pylint find_matching_pair.py
