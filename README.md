@@ -14,7 +14,7 @@ We support RTFM and LMGTFY:
 >___Create a file telling us when you last used RTFM and LMGTFY,
 the OS you use and the languages you master___
 
-## 1 reply
+## reply
 
 Doing LMGTFY and defining the concepts:
 
@@ -30,7 +30,9 @@ Now my replies:
 3. OS (mainly WIN., later LINUX, the least used MAC)
 
 4. Languages you master
+
 4.1. Computer Languages: C++, Go, Python, Dart, Flutter, Flet, PowerBuilder, ..
+
 4.2. Human Languages: Spanish, English, Italian, ..
 
 
@@ -43,7 +45,7 @@ You can use Pseudocode.___
 >___If you are not familiar with writing these programs, you can explain the
 most representative concepts.___
 
-## 2 reply
+## reply
 Continuous Integration (CI) allows to automate the integration of code changes
 
 1.code building 
@@ -63,12 +65,12 @@ projects of your authorship.
 
 >___If you do not want to share the code, you can just paste some of it.___
 
-## 3 reply
-# 1
-# In this classical program, It was added the full test-drf code
+## reply
+
+1. In this classical program, It was added the full test-drf code.
 https://github.com/DENRIV/test-drf-django-restful-framework-api
 
-# 2
+2. Working with Python Flask sqlalchemy PostgreSQL APIs & test with Thunder VSC.
 https://github.com/DENRIV/Python_Flask_sqlalchemy_PostgreSQL_API_Thunder_VSC
 
 
@@ -85,26 +87,13 @@ assumption, let us know.___
 
 * Consider recibe 1 000 000 numbers
 
-## 4 reply
-# find_matching_pair.py
-def find_matching_pair(arr, sum):
-    '''
-    Find the first Pair in sequence.
-    The solution is linear, it can receive a large amount of input numbers.
-    '''
-    t = set()
-    for i in range(len(arr)):
-        delta = sum - arr[i]
-        #print(i, delta, arr[i], t)
-        if (delta in t):
-            print("OK, matching pair", "(", delta, ",", arr[i], ")")
-            return
-        t.add(arr[i])
-    print("No")
-    return
-arr = [2,3,6,7]
-sum = 9
-find_matching_pair(arr, sum)
+## reply
+
+<a href="find_matching_pair.py">find_matching_pair.py</a>
+
+<a href="test_find_matching_pair.py">test_find_matching_pair.py</a>
+
+![Screenshot](simple_run_and_test.png)
 
 
 ## 5
@@ -122,8 +111,9 @@ find_matching_pair(arr, sum)
 IG1lbnNhamUu___
 
 
-## 5 reply
-# hex decoder & base64 decoder
+## reply
+
+hex decoder & base64 decoder
 
 Este es el último paso, por favor, agregame al hangout: 
 
