@@ -23,9 +23,9 @@ Doing LMGTFY and defining the concepts:
 2.LMGTFY: Let Me Google That For You (Déjame buscarlo en Google para ti)
 
 Now my replies:
-1. Las week, at least 1 time.
+1. Last week, at least 1 time.
 
-2. For this test.
+2. Used for this test.
 
 3. OS (mainly WIN., later LINUX, the least used MAC)
 
